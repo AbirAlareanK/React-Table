@@ -1,8 +1,10 @@
-import React from 'react';
-import DataTable from 'react-data-table-component';
+import React, { useState } from 'react';
+import DataTable  from './DataTableBase';
 import { Container } from '../styled/Container.style';
 
 const Table = () => {
+    
+    const [ title ] = useState('header for the table')
     const columns = [
         {
             name: 'Title',
@@ -26,12 +28,15 @@ const Table = () => {
             year: '1984',
         },
     ]
-
+  
     return (
         <Container>
             <DataTable 
                 columns={columns}
                 data={data}
+                selectableRows
+                title={title}
+                highlightOnHover={true}
             />
         </Container>
     );

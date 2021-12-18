@@ -1,0 +1,27 @@
+[
+   {
+        "id": "CARD_001",
+        "card" : "grean",
+        "cardNumber" : "1234 5678 7654 7892",
+        "cardType":"Primary",
+        "bank":"ABC Bank",
+        "nameinCard":"Tony Soap"
+    },
+    {
+        "id": "CARD_002",
+        "card" : "grean",
+        "cardNumber" : "1234 5678 7654 2456",
+        "cardType":"Secondary",
+        "bank":"ABC Bank",
+        "nameinCard":"Tony Soap"
+    },
+    {
+        "id": "CARD_003",
+        "card" : "grean",
+        "cardNumber" : "1234 5678 7654 1122",
+        "cardType":"Secondary",
+        "bank":"ABC Bank",
+        "nameinCard":"Tony Soap"
+    }
+   
+]

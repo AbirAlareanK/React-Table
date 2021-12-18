@@ -3,9 +3,22 @@ import Table from './Components/data-table/Table';
 
 function App() {
 
+  const data = [
+    {
+        id: 3,
+        title: 'sometalk',
+        year: '1990',
+    },
+    {
+        id: 4,
+        title: 'Ghostbuste',
+        year: '1984',
+    },
+]
+
   return (
     <div className="App">
-      <Table />
+      <Table data={data}/>
     </div>
   );
 }
