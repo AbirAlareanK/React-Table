@@ -11,7 +11,6 @@ function DataTableBase(props) {
             selectableRowsComponentProps={selectProps}
             dense
             title
-            highlightOnHover
             {...props}
         />
     );
