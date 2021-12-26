@@ -14,6 +14,16 @@ function App() {
         title: 'Ghostbuste',
         year: '1984',
     },
+    {
+        id: 5,
+        title: 'gdtfs',
+        year: '1984',
+    },
+    {
+        id: 6,
+        title: 'Ghost',
+        year: '1984',
+    }
 ]
 
   return (
